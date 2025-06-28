@@ -6,12 +6,10 @@ body {
 }
 
 .card-hover-effect {
-    /* The transition now only targets box-shadow to prevent layout issues */
     transition: box-shadow 0.3s ease; 
 }
 
 .card-hover-effect:hover {
-    /* The transform property, which caused the search bug, has been removed. */
     box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.2), 0 10px 10px -5px rgba(99, 102, 241, 0.1);
 }
 
