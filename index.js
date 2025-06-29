@@ -35,9 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         const price = (Math.random() * (29.99 - 5.99) + 5.99).toFixed(2);
 
-        // Se actualizó la línea de la descripción <p> a continuación.
-        // Se cambió 'text-sm' por 'text-xs' para achicar la letra.
-        // Se añadió 'mt-2' para crear más espacio debajo del título.
+       
         card.innerHTML = `
             <img src="${imageUrl}" alt="${anime.title}" class="w-full h-72 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x600/1e293b/ffffff?text=Image+Error';">
             <div class="p-6 flex flex-col flex-grow">
